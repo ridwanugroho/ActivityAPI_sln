@@ -88,11 +88,11 @@ namespace ToDoList
                 cmd.OnExecuteAsync(async calcelationToken =>
                 {
                     var str = "{"
-                            +   $"\"Name\":\"{cmdArgs.Values[1]}\""
+                            +   $"\"name\":\"{cmdArgs.Values[1]}\""
                             + "}";
                     // var toUpdate = JsonSerializer.Serialize(new Activity(){Name=cmdArgs.Values[1]});
                     
-                    var res = await ReqObj(baseUrl+cmdArgs.Values[0], HttpMethod.Patch, str);
+                    var res = await ReqObj(baseUrl+"update/"+cmdArgs.Values[0], HttpMethod.Patch, str);
                 });
             });
         }
@@ -121,8 +121,8 @@ namespace ToDoList
                 var cmdArgs = cmd.Argument("id_to_done", " ");
                 cmd.OnExecuteAsync(async calcelationToken =>
                 {
-                    var str = "{" + "\"status\":true}";
-                    var res = await ReqObj(baseUrl+cmdArgs.Value, HttpMethod.Patch, str);
+                    var str = "{" + "\"Status\":true}";
+                    var res = await ReqObj(baseUrl+"status/"+cmdArgs.Value, HttpMethod.Patch, str);
                 });
             });
         }
@@ -134,8 +134,8 @@ namespace ToDoList
                 var cmdArgs = cmd.Argument("id_to_done", " ");
                 cmd.OnExecuteAsync(async calcelationToken =>
                 {
-                    var str = "{" + "\"status\":false}"; 
-                    var res = await ReqObj(baseUrl+cmdArgs.Values[0], HttpMethod.Patch, str);
+                    var str = "{" + "\"Status\":false}"; 
+                    var res = await ReqObj(baseUrl+"status/"+cmdArgs.Values[0], HttpMethod.Patch, str);
                 });
             });
         }

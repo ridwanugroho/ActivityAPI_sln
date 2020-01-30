@@ -39,7 +39,8 @@ namespace ActivityAPI.Controllers
             return activity;
         }
 
-        [HttpPatch("{id}")]
+        [HttpPatch]
+        [Route("/activity/update/{id}")]
         public ActionResult<Activity> Update(int id, [FromBody] Activity articleToUpdate)
         {
             var activity = _appDbContex.Activities.Find(id);
@@ -49,6 +50,19 @@ namespace ActivityAPI.Controllers
 
             return activity;
         }
+
+        [HttpPatch]
+        [Route("/activity/status/{id}")]
+        public ActionResult<Activity> Done(int id, [FromBody] Activity articleToUpdate)
+        {
+            var activity = _appDbContex.Activities.Find(id);
+            activity.Status = articleToUpdate.Status;
+            activity.EditedAt = DateTime.Now;
+            _appDbContex.SaveChanges();
+
+            return activity;
+        }
+
 
         [HttpDelete("{id}")]
         public string Delete(int id)
