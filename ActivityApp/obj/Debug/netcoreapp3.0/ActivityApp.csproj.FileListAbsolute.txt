@@ -1,0 +1,14 @@
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.exe
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.deps.json
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.runtimeconfig.json
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.runtimeconfig.dev.json
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.dll
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\ActivityApp.pdb
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\McMaster.Extensions.CommandLineUtils.dll
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.csprojAssemblyReference.cache
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.AssemblyInfoInputs.cache
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.AssemblyInfo.cs
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.csproj.CopyComplete
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.dll
+D:\Prog\CSharp\training\14_kamis_30_jan_20\RESTAPISln\ActivityApp\obj\Debug\netcoreapp3.0\ActivityApp.pdb

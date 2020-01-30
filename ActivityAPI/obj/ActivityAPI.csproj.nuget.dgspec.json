@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Prog\\CSharp\\training\\14_kamis_30_jan_20\\RESTAPISln\\ActivityAPI\\ActivityAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Prog\\CSharp\\training\\14_kamis_30_jan_20\\RESTAPISln\\ActivityAPI\\ActivityAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prog\\CSharp\\training\\14_kamis_30_jan_20\\RESTAPISln\\ActivityAPI\\ActivityAPI.csproj",
+        "projectName": "ActivityAPI",
+        "projectPath": "D:\\Prog\\CSharp\\training\\14_kamis_30_jan_20\\RESTAPISln\\ActivityAPI\\ActivityAPI.csproj",
+        "packagesPath": "D:\\Users\\bsi50131\\.nuget\\packages\\",
+        "outputPath": "D:\\Prog\\CSharp\\training\\14_kamis_30_jan_20\\RESTAPISln\\ActivityAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\bsi50131\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
